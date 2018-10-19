@@ -1,0 +1,20 @@
+.metaDescription{
+  margin: auto;
+  width: 50%;
+  display: inline-block;
+}
+
+.writtenDescription{
+  margin: auto;
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+}
+
+@media(max-width:650px){
+  .metaDescription, .writtenDescription{
+    width: 100%;
+    overflow-y: visible;
+    text-align: center;
+  }
+}

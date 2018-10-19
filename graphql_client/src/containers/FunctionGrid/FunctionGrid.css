@@ -1,0 +1,27 @@
+.Grid{
+  height: 50%;
+  width:85%;
+  margin: auto;
+}
+
+
+@media(max-width:1000px){
+  .Grid{
+    width: 80%;
+  }
+
+}
+
+@media(max-width:650px){
+  .Grid{
+    width: 500px;
+  }
+
+}
+
+@media(max-height:500px){
+  .Grid{
+    height: 300px;
+    overflow-y: scroll;
+  }
+}

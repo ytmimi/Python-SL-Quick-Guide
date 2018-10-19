@@ -1,0 +1,13 @@
+.Display{
+  height: 50%;
+  width:85%;
+  margin: auto;
+  border: 2px solid #d08770;
+}
+
+@media(max-width:650px){
+  .Display{
+    width: 470px;
+    overflow-y: visible;
+  }
+}
