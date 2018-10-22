@@ -7,7 +7,7 @@ const PythonSnippet = (props) => {
   return(
   <div className={'Snippet'}>
     <SyntaxHighlighter language='python' useInlineStyles={false}>
-        {props.codeString}
+        {props.text}
     </SyntaxHighlighter>
   </div>
 )}
