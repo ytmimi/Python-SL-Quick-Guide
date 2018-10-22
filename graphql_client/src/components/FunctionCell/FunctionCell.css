@@ -5,3 +5,7 @@
   margin: 3px;
   display: inline-block;
 }
+
+.Cell:hover{
+  background-color: #b98dbe;
+}
