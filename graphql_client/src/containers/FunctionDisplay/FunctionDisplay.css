@@ -1,9 +1,20 @@
 .Display{
+  /*needs to be relative so that btn-edit can be absolute*/
+  position: relative;
   height: 50%;
   width:85%;
   margin: auto;
   border: 2px solid #d08770;
 }
+
+.btn-edit{
+  position:absolute;
+  top: 2px;
+  right: 2px;
+}
+
+
+
 
 @media(max-width:650px){
   .Display{
