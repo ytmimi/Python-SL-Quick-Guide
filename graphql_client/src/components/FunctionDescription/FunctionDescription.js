@@ -8,7 +8,7 @@ const FunctionDescription = (props) =>{
         <p>{props.name}</p>
       </div>
       <div className={'writtenDescription'}>
-        <p>{props.description}</p>
+        <p>{props.text}</p>
       </div>
     </div>
   )
